@@ -1,5 +1,3 @@
-> From: https://chatgpt.com/c/6b075fb6-8668-83e9-8281-352d14779328
-
 # you asked
 
 message time: 2026-11-25 14:24:18
