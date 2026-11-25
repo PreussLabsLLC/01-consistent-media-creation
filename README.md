@@ -44,7 +44,13 @@ At 1,000 assets, one item costs about $0.05 based on a cost of $1.00 per hour.
 This in turn is based on $500 per month for financing a $5,000 workstation 
 utilized for 500 hours per month (FYI, there are 720 hours in most months).
 
-The idea: Run the batch job locally to save the Nebius powder for more advanced work.
+- Question 1: Run the batch job locally to save the Nebius powder for more advanced work.
+- Question 2: SANA,  Wan 2.2 TI2V 5B, Kokoro
+- Question 3: Image, Video, Speech, Music
+- Question 4: local batch job (docker container)
+- Question 5: local RTX 3090 24GB VRAM
+- Question 6: about 300 seconds per asset
+- Question 7: about $0.05 per asset
 
 My code (with lots of help from ChatGPT): 
 - https://github.com/PreussLabsLLC/01-consistent-media-creation/blob/main/batch_inference.py
