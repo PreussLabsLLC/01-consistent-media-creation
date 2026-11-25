@@ -44,6 +44,8 @@ utilized for 500 hours per month (FYI, there are 720 hours in most months).
 
 The idea: Run the batch job locally to save the Nebius powder for more advanced work.
 
-My code: https://github.com/PreussLabsLLC/01-consistent-media-creation/blob/main/report.md
+My code: 
+- https://github.com/PreussLabsLLC/01-consistent-media-creation/blob/main/batch_inference.py
+- https://github.com/PreussLabsLLC/01-consistent-media-creation/blob/main/report.md
 
 @DataTalksClub @Nebius
