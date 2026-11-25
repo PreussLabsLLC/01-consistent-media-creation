@@ -1,5 +1,7 @@
 ## Completed Module 1 of Production AI Agents for Generative Media!
 
+I used the provided Santa kids/wishlists to help Santa get going.
+
 I tried to setup a media production pipeline locally running on my 
 windows 11 workstation with Ubuntu 24.04 installed in docker/WSL.
 It enjoys 128GB Ram, an intel core ultra 270k plus CPU, and a 24GB VRAM
