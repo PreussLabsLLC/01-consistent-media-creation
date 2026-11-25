@@ -1,0 +1,1 @@
+python batch_inference.py --n 1 --out /data/run

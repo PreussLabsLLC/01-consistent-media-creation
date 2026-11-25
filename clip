@@ -1,0 +1,12 @@
+cd /app
+
+python - <<'PY'
+from pathlib import Path
+from batch_inference import run, Step
+
+run(
+    n=1,
+    out=Path("/data/run"),
+    steps=[Step.CLIP],
+)
+PY

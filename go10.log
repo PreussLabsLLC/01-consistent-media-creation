@@ -1,0 +1,115 @@
+06:27:15 10 kids from /assets/kids.csv, steps: text, illustration, card, clip, greeting, mix, out: /data/run/cards
+06:27:15 text 1/10 k01 0.0 s
+06:27:15 text 2/10 k02 0.0 s
+06:27:15 text 3/10 k03 0.0 s
+06:27:15 text 4/10 k04 0.0 s
+06:27:15 text 5/10 k05 0.0 s
+06:27:15 text 6/10 k06 0.0 s
+06:27:15 text 7/10 k07 0.0 s
+06:27:15 text 8/10 k08 0.0 s
+06:27:15 text 9/10 k09 0.0 s
+06:27:15 text 10/10 k10 0.0 s
+06:27:46 illustration model loaded in 32.1 s
+06:27:50 illustration 1/10 k01 4.6 s
+06:27:54 illustration 2/10 k02 3.2 s
+06:27:57 illustration 3/10 k03 3.2 s
+06:28:00 illustration 4/10 k04 3.2 s
+06:28:03 illustration 5/10 k05 3.2 s
+06:28:04 illustration 6/10 k06 3.2 s
+06:28:08 illustration 7/10 k07 3.2 s
+06:28:11 illustration 8/10 k08 3.3 s
+06:28:14 illustration 9/10 k09 3.2 s
+06:28:17 illustration 10/10 k10 3.2 s
+06:28:18 card 1/10 k01 0.2 s
+06:28:18 card 2/10 k02 0.2 s
+06:28:18 card 3/10 k03 0.2 s
+06:28:18 card 4/10 k04 0.2 s
+06:28:19 card 5/10 k05 0.2 s
+06:28:19 card 6/10 k06 0.2 s
+06:28:19 card 7/10 k07 0.2 s
+06:28:19 card 8/10 k08 0.2 s
+06:28:19 card 9/10 k09 0.2 s
+06:28:19 card 10/10 k10 0.2 s
+06:28:51 clip model loaded in 32.9 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.06 GiB
+06:34:28 clip 1/10 k01 357.6 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.08 GiB
+06:39:10 clip 2/10 k02 297.9 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.12 GiB
+06:43:49 clip 3/10 k03 294.4 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.05 GiB
+06:48:24 clip 4/10 k04 292.9 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.12 GiB
+06:53:00 clip 5/10 k05 292.2 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.10 GiB
+06:57:38 clip 6/10 k06 291.8 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.11 GiB
+07:02:14 clip 7/10 k07 292.2 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.10 GiB
+07:06:50 clip 8/10 k08 292.4 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.14 GiB
+07:11:27 clip 9/10 k09 291.8 s
+Parameters: {'width': 1024, 'height': 576, 'num_frames': 81, 'num_inference_steps': 40, 'guidance_scale': 3.5, 'negative_prompt': 'blurry, low quality, flickering, distortion, morphing, warped objects, abrupt scene changes, text, letters, watermarks, people, faces, large snowflakes, foreground snow, obscured present, snowstorm, blizzard, excessive particles'}
+Scheduler: FrozenDict({'num_train_timesteps': 1000, 'beta_start': 0.0001, 'beta_end': 0.02, 'beta_schedule': 'linear', 'trained_betas': None, 'solver_order': 2, 'prediction_type': 'flow_prediction', 'thresholding': False, 'dynamic_thresholding_ratio': 0.995, 'sample_max_value': 1.0, 'predict_x0': True, 'solver_type': 'bh2', 'lower_order_final': True, 'disable_corrector': [], 'solver_p': None, 'use_karras_sigmas': False, 'use_exponential_sigmas': False, 'use_beta_sigmas': False, 'use_flow_sigmas': True, 'flow_shift': 5.0, 'timestep_spacing': 'linspace', 'steps_offset': 0, 'final_sigmas_type': 'zero', 'rescale_betas_zero_snr': False, 'use_dynamic_shifting': False, 'time_shift_type': 'exponential', 'sigma_min': None, 'sigma_max': None, 'shift_terminal': None, '_use_default_values': ['shift_terminal', 'sigma_max', 'sigma_min'], '_class_name': 'UniPCMultistepScheduler', '_diffusers_version': '0.35.0.dev0'})
+Pipeline: FrozenDict({'vae': ('diffusers', 'AutoencoderKLWan'), 'text_encoder': ('transformers', 'UMT5EncoderModel'), 'tokenizer': ('transformers', 'T5Tokenizer'), 'image_encoder': (None, None), 'transformer': ('diffusers', 'WanTransformer3DModel'), 'scheduler': ('diffusers', 'UniPCMultistepScheduler'), 'image_processor': (None, None), 'transformer_2': (None, None), 'boundary_ratio': None, 'expand_timesteps': True, '_name_or_path': 'Wan-AI/Wan2.2-TI2V-5B-Diffusers'})
+Peak VRAM allocated: 12.99 GiB
+Peak VRAM reserved: 14.08 GiB
+07:16:03 clip 10/10 k10 291.8 s
+07:16:07 greeting model loaded in 3.4 s
+07:16:08 greeting 1/10 k01 0.6 s
+07:16:08 greeting 2/10 k02 0.1 s
+07:16:08 greeting 3/10 k03 0.1 s
+07:16:08 greeting 4/10 k04 0.1 s
+07:16:08 greeting 5/10 k05 0.1 s
+07:16:08 greeting 6/10 k06 0.1 s
+07:16:08 greeting 7/10 k07 0.1 s
+07:16:08 greeting 8/10 k08 0.1 s
+07:16:08 greeting 9/10 k09 0.1 s
+07:16:09 greeting 10/10 k10 0.2 s
+07:16:08 mix 1/10 k01 0.6 s
+07:16:08 mix 2/10 k02 0.7 s
+07:16:09 mix 3/10 k03 0.6 s
+07:16:10 mix 4/10 k04 0.7 s
+07:16:10 mix 5/10 k05 0.6 s
+07:16:11 mix 6/10 k06 0.6 s
+07:16:12 mix 7/10 k07 0.6 s
+07:16:12 mix 8/10 k08 0.6 s
+07:16:13 mix 9/10 k09 0.6 s
+07:16:13 mix 10/10 k10 0.6 s
+07:16:13 finished: /data/run/cards (metrics: /data/run/metrics_batch.json)

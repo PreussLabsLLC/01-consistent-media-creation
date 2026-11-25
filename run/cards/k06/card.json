@@ -1,0 +1,18 @@
+{
+  "kid": {
+    "id": "k06",
+    "name": "Aino",
+    "age": 4,
+    "wishlist": "a plush reindeer",
+    "wish": "Dear Aino, at 4 you are full of wonder. I heard you wished for a plush reindeer, and my elves are already busy. Merry Christmas!",
+    "greeting": "Merry Christmas, Aino! Santa heard you wished for a plush reindeer.",
+    "prompt": "A magical Christmas storybook illustration, centered composition. The hero object: a plush reindeer, glowing softly, placed on snow under a starry night sky. Around it: a small decorated Christmas tree, wrapped presents, twinkling lights, gentle falling snow. Warm, vibrant colors, whimsical children's-book art style. No people, no faces, no text, no letters, no signatures, no logos, no brand names, no characters."
+  },
+  "gifts": [
+    "a plush reindeer"
+  ],
+  "wish": "Dear Aino, at 4 you are full of wonder. I heard you wished for a plush reindeer, and my elves are already busy. Merry Christmas!",
+  "mood": "warm",
+  "greeting": "Merry Christmas, Aino! Santa heard you wished for a plush reindeer.",
+  "image_prompt": "A magical Christmas storybook illustration, centered composition. The hero object: a plush reindeer, glowing softly, placed on snow under a starry night sky. Around it: a small decorated Christmas tree, wrapped presents, twinkling lights, gentle falling snow. Warm, vibrant colors, whimsical children's-book art style. No people, no faces, no text, no letters, no signatures, no logos, no brand names, no characters."
+}

@@ -1,0 +1,18 @@
+{
+  "kid": {
+    "id": "k03",
+    "name": "Noah",
+    "age": 9,
+    "wishlist": "a robot kit",
+    "wish": "Dear Noah, at 9 you are full of wonder. I heard you wished for a robot kit, and my elves are already busy. Merry Christmas!",
+    "greeting": "Merry Christmas, Noah! Santa heard you wished for a robot kit.",
+    "prompt": "A magical Christmas storybook illustration, centered composition. The hero object: a robot kit, glowing softly, placed on snow under a starry night sky. Around it: a small decorated Christmas tree, wrapped presents, twinkling lights, gentle falling snow. Warm, vibrant colors, whimsical children's-book art style. No people, no faces, no text, no letters, no signatures, no logos, no brand names, no characters."
+  },
+  "gifts": [
+    "a robot kit"
+  ],
+  "wish": "Dear Noah, at 9 you are full of wonder. I heard you wished for a robot kit, and my elves are already busy. Merry Christmas!",
+  "mood": "warm",
+  "greeting": "Merry Christmas, Noah! Santa heard you wished for a robot kit.",
+  "image_prompt": "A magical Christmas storybook illustration, centered composition. The hero object: a robot kit, glowing softly, placed on snow under a starry night sky. Around it: a small decorated Christmas tree, wrapped presents, twinkling lights, gentle falling snow. Warm, vibrant colors, whimsical children's-book art style. No people, no faces, no text, no letters, no signatures, no logos, no brand names, no characters."
+}
